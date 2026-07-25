@@ -36,14 +36,29 @@ public class Operators {
 
 
         // Logical operators (&&, ||, !)
-        int x = 7;
-        int y = 5;
-        int a = 5;
-        int b = 9;
+        // int x = 7;
+        // int y = 5;
+        // int a = 5;
+        // int b = 9;
 
-        // boolean r = x > y && a > b;     //if both conditions are true then only output is true
-        boolean r = x > y || a > b;     //if any of the condition get true it will print true
-        System.out.println(r);
-        System.out.println(!r);
+        // // boolean r = x > y && a > b;     //if both conditions are true then only output is true
+        // boolean r = x > y || a > b;     //if any of the condition get true it will print true
+        // System.out.println(r);
+        // System.out.println(!r);
+
+
+        // Ternary Operator (?:)
+        int n = 8;
+        int result = 0;
+
+        // if (n % 2 == 0)
+        //     result = 10;
+        // else
+        //     result = 20;
+
+        // with the help of ternary operator
+
+        result = n%2==0 ? 10 : 20;
+        System.out.println(result);
     }
 }
